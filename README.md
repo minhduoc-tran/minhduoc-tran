@@ -1,3 +1,5 @@
+![header](https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:0d2137,100:1e3a5f&height=130&section=header&text=minhduoc-tran&fontSize=32&fontColor=e6edf3&fontAlignY=45&desc=Web%20Developer%20%C2%B7%20Viet%20Nam&descSize=14&descAlignY=68&animation=fadeIn)
+
 <h2 align="left">Hi 👋! My name is Tran Duoc and I'm a web developer in Viet Nam</h2>
 
 ###
@@ -101,3 +103,5 @@
 </div>
 
 ###
+
+
