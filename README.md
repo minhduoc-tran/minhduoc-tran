@@ -1,7 +1,7 @@
 <!-- Animated Banner -->
 <div align="center">
 
-![banner](https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,100:1e3a5f&height=120&section=header&text=minhduoc-tran&fontSize=36&fontColor=e6edf3&fontAlignY=45&desc=Web%20Developer%20·%20Viet%20Nam&descAlignY=70&descSize=14&animation=fadeIn)
+![banner](https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,100:1e3a5f&height=120&section=header&text=minhduoc-tran&fontSize=36&fontColor=e6edf3&fontAlignY=45&desc=Web%20Developer%20%C2%B7%20Viet%20Nam&descAlignY=70&descSize=14&animation=fadeIn)
 
 </div>
 
@@ -43,8 +43,16 @@ I'm **Tran Duoc**, a full-stack web developer based in Việt Nam, building thin
 ## 📊 GitHub Stats
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=minhduoc-tran&hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&theme=github_dark&hide_border=true" height="150" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=minhduoc-tran&locale=en&layout=compact&langs_count=5&theme=github_dark&hide_border=true" height="150" />
+  <img src="https://github-readme-stats.vercel.app/api?username=minhduoc-tran&show_icons=true&include_all_commits=true&count_private=true&theme=github_dark&hide_border=true" height="150" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=minhduoc-tran&layout=compact&langs_count=5&theme=github_dark&hide_border=true" height="150" />
+</div>
+
+---
+
+## 🐍 Contribution Graph
+
+<div align="center">
+  <img src="https://raw.githubusercontent.com/minhduoc-tran/minhduoc-tran/output/github-contribution-grid-snake-dark.svg" alt="snake animation" />
 </div>
 
 ---
