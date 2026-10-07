@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="854" height="236" viewBox="0 0 854 236" role="img" aria-label="Tech stack">
+<style>
+.in { animation: in .7s cubic-bezier(.2,.7,.2,1) both; }
+@keyframes in { from { opacity: 0; transform: translateY(6px); } to { opacity: 1; transform: none; } }
+.blink { animation: blink 1.1s steps(1) infinite; }
+@keyframes blink { 50% { opacity: 0; } }
+.pulse { animation: pulse 2s ease-out infinite; transform-box: fill-box; transform-origin: center; }
+@keyframes pulse { from { opacity: .6; transform: scale(1); } to { opacity: 0; transform: scale(3); } }
+
+.sans { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif; } .mono { font-family: ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace; }
+</style>
+<defs>
+  <pattern id="dots" width="18" height="18" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r="1" fill="#27272a"/></pattern>
+  <radialGradient id="fade" cx=".3" cy=".3" r=".8"><stop offset="0" stop-color="#fff"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></radialGradient>
+  <mask id="m"><rect width="854" height="236" fill="url(#fade)"/></mask>
+  <radialGradient id="glow" cx=".5" cy=".5" r=".5"><stop offset="0" stop-color="#1d4ed8" stop-opacity=".18"/><stop offset="1" stop-color="#1d4ed8" stop-opacity="0"/></radialGradient>
+  <clipPath id="card"><rect x=".5" y=".5" width="853" height="235" rx="14"/></clipPath>
+</defs>
+<g clip-path="url(#card)">
+  <rect width="854" height="236" fill="#09090b"/>
+  <rect width="854" height="236" fill="url(#dots)" mask="url(#m)"/>
+
+  <text x="44" y="40" class="mono" font-size="11.5" fill="#60a5fa" letter-spacing="1.5">TOOLBOX</text>
+  <g class="in" style="animation-delay:0.0s"><text x="44" y="80" class="mono" font-size="11.5" fill="#71717a" letter-spacing="1.5">FRONTEND</text><rect x="160" y="64" width="55" height="24" rx="12" fill="#18181b" stroke="#27272a"/><text x="187" y="80" text-anchor="middle" class="sans" font-size="12.5" fill="#fafafa">React</text>
+<rect x="222.75" y="64" width="65" height="24" rx="12" fill="#18181b" stroke="#27272a"/><text x="255" y="80" text-anchor="middle" class="sans" font-size="12.5" fill="#fafafa">Next.js</text>
+<rect x="296.0" y="64" width="96" height="24" rx="12" fill="#18181b" stroke="#27272a"/><text x="344" y="80" text-anchor="middle" class="sans" font-size="12.5" fill="#fafafa">Tailwind CSS</text>
+<rect x="400.5" y="64" width="76" height="24" rx="12" fill="#18181b" stroke="#27272a"/><text x="438" y="80" text-anchor="middle" class="sans" font-size="12.5" fill="#fafafa">TanStack</text>
+<rect x="484.5" y="64" width="41" height="24" rx="12" fill="#18181b" stroke="#27272a"/><text x="505" y="80" text-anchor="middle" class="sans" font-size="12.5" fill="#fafafa">Vue</text>
+<rect x="533.75" y="64" width="65" height="24" rx="12" fill="#18181b" stroke="#27272a"/><text x="566" y="80" text-anchor="middle" class="sans" font-size="12.5" fill="#fafafa">Angular</text>
+<rect x="607.0" y="64" width="55" height="24" rx="12" fill="#18181b" stroke="#27272a"/><text x="634" y="80" text-anchor="middle" class="sans" font-size="12.5" fill="#fafafa">Redux</text></g><g class="in" style="animation-delay:0.1s"><text x="44" y="122" class="mono" font-size="11.5" fill="#71717a" letter-spacing="1.5">BACKEND</text><rect x="160" y="106" width="47" height="24" rx="12" fill="#18181b" stroke="#27272a"/><text x="184" y="122" text-anchor="middle" class="sans" font-size="12.5" fill="#fafafa">.NET</text>
+<rect x="215.0" y="106" width="90" height="24" rx="12" fill="#18181b" stroke="#27272a"/><text x="260" y="122" text-anchor="middle" class="sans" font-size="12.5" fill="#fafafa">Spring Boot</text>
+<rect x="313.25" y="106" width="71" height="24" rx="12" fill="#18181b" stroke="#27272a"/><text x="349" y="122" text-anchor="middle" class="sans" font-size="12.5" fill="#fafafa">FastAPI</text>
+<rect x="392.5" y="106" width="65" height="24" rx="12" fill="#18181b" stroke="#27272a"/><text x="425" y="122" text-anchor="middle" class="sans" font-size="12.5" fill="#fafafa">Node.js</text></g><g class="in" style="animation-delay:0.2s"><text x="44" y="164" class="mono" font-size="11.5" fill="#71717a" letter-spacing="1.5">DATA</text><rect x="160" y="148" width="92" height="24" rx="12" fill="#18181b" stroke="#27272a"/><text x="206" y="164" text-anchor="middle" class="sans" font-size="12.5" fill="#fafafa">PostgreSQL</text>
+<rect x="259.5" y="148" width="88" height="24" rx="12" fill="#18181b" stroke="#27272a"/><text x="304" y="164" text-anchor="middle" class="sans" font-size="12.5" fill="#fafafa">SQL Server</text>
+<rect x="356.0" y="148" width="60" height="24" rx="12" fill="#18181b" stroke="#27272a"/><text x="386" y="164" text-anchor="middle" class="sans" font-size="12.5" fill="#fafafa">MySQL</text>
+<rect x="424.25" y="148" width="73" height="24" rx="12" fill="#18181b" stroke="#27272a"/><text x="461" y="164" text-anchor="middle" class="sans" font-size="12.5" fill="#fafafa">MongoDB</text></g><g class="in" style="animation-delay:0.3s"><text x="44" y="206" class="mono" font-size="11.5" fill="#71717a" letter-spacing="1.5">LANGUAGES</text><rect x="160" y="190" width="86" height="24" rx="12" fill="#18181b" stroke="#27272a"/><text x="203" y="206" text-anchor="middle" class="sans" font-size="12.5" fill="#fafafa">TypeScript</text>
+<rect x="254.5" y="190" width="86" height="24" rx="12" fill="#18181b" stroke="#27272a"/><text x="298" y="206" text-anchor="middle" class="sans" font-size="12.5" fill="#fafafa">JavaScript</text>
+<rect x="349.0" y="190" width="34" height="24" rx="12" fill="#18181b" stroke="#27272a"/><text x="366" y="206" text-anchor="middle" class="sans" font-size="12.5" fill="#fafafa">C#</text>
+<rect x="391.5" y="190" width="48" height="24" rx="12" fill="#18181b" stroke="#27272a"/><text x="416" y="206" text-anchor="middle" class="sans" font-size="12.5" fill="#fafafa">Java</text>
+<rect x="447.5" y="190" width="62" height="24" rx="12" fill="#18181b" stroke="#27272a"/><text x="478" y="206" text-anchor="middle" class="sans" font-size="12.5" fill="#fafafa">Python</text></g>
+</g>
+<rect x=".5" y=".5" width="853" height="235" rx="14" fill="none" stroke="#27272a"/>
+</svg>
