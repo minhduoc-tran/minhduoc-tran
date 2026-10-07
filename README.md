@@ -1,107 +1,60 @@
-![header](https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:0d2137,100:1e3a5f&height=130&section=header&text=minhduoc-tran&fontSize=32&fontColor=e6edf3&fontAlignY=45&desc=Web%20Developer%20%C2%B7%20Viet%20Nam&descSize=14&descAlignY=68&animation=fadeIn)
+<div align="center">
 
-<h2 align="left">Hi 👋! My name is Tran Duoc and I'm a web developer in Viet Nam</h2>
+![header](https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:0d2137,100:1e3a5f&height=160&section=header&text=Tran%20Minh%20Duoc&fontSize=36&fontColor=e6edf3&fontAlignY=40&desc=Web%20Developer%20%C2%B7%20C%E1%BA%A7n%20Th%C6%A1%2C%20Viet%20Nam&descSize=15&descAlignY=62&animation=fadeIn)
 
-###
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=18&duration=3000&pause=800&color=58A6FF&center=true&vCenter=true&width=520&lines=Building+data-heavy+UIs+with+React+%26+Next.js;Open-source+table+%26+filter+components;Always+learning%2C+always+shipping)](https://github.com/minhduoc-tran)
 
-<h2 align="left">Skills</h2>
+<a href="https://www.facebook.com/profile.php?id=100027522219067"><img src="https://img.shields.io/badge/Facebook-1877F2?style=flat-square&logo=facebook&logoColor=white" /></a>
+<img src="https://komarev.com/ghpvc/?username=minhduoc-tran&style=flat-square&color=1e3a5f&label=Profile+views" />
 
-###
-
-<h3 align="left">Languages</h3>
-
-###
-
-<div align="left">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="30" alt="javascript logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" height="30" alt="typescript logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" height="30" alt="python logo"  />
-  <img width="12" />
-  <img src="https://skillicons.dev/icons?i=cs" height="30" alt="csharp logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" height="30" alt="java logo"  />
 </div>
 
-###
+### 👋 About me
 
-<h3 align="left">Frameworks</h3>
+- 💻 Web developer from **Cần Thơ, Viet Nam**, mostly working with **React / Next.js / TypeScript**
+- 🧩 I like building reusable UI pieces, especially **data tables and filters**
+- 🌱 Also comfortable on the backend with **.NET, Spring and FastAPI**
 
-###
+### 🚀 Featured projects
 
-<div align="left">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" height="40" alt="react logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg" height="40" alt="nextjs logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/vuejs-original.svg" height="40" alt="vuejs logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/angularjs/angularjs-original.svg" height="40" alt="angularjs logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg" height="40" alt="sass logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redux/redux-original.svg" height="40" alt="redux logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg" height="40" alt="spring logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dotnetcore/dotnetcore-original.svg" height="40" alt="dotnetcore logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg" height="40" alt="bootstrap logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/eslint/eslint-original.svg" height="40" alt="eslint logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/fastapi/fastapi-original.svg" height="40" alt="fastapi logo"  />
-</div>
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <h4><a href="https://github.com/minhduoc-tran/tablecn">tablecn</a></h4>
+      <p>Data table components built on shadcn/ui — sorting, filtering, pagination and more, ready to drop into your app.</p>
+      <a href="https://table-cn.vercel.app"><img src="https://img.shields.io/badge/Live_demo-000?style=flat-square&logo=vercel" /></a>
+      <img src="https://img.shields.io/github/stars/minhduoc-tran/tablecn?style=flat-square&color=1e3a5f" />
+    </td>
+    <td width="50%" valign="top">
+      <h4><a href="https://github.com/minhduoc-tran/filtercn">filtercn</a></h4>
+      <p>Conditional filter builder for data tables. Serializes complex queries into URL state or API params.</p>
+      <a href="https://filtercn.vercel.app"><img src="https://img.shields.io/badge/Live_demo-000?style=flat-square&logo=vercel" /></a>
+      <img src="https://img.shields.io/github/stars/minhduoc-tran/filtercn?style=flat-square&color=1e3a5f" />
+    </td>
+  </tr>
+</table>
 
-###
+### 🛠️ Tech stack
 
-<h3 align="left">Databases</h3>
+| | |
+|---|---|
+| **Languages** | <img src="https://skillicons.dev/icons?i=ts,js,py,cs,java&theme=dark" height="36" /> |
+| **Frontend** | <img src="https://skillicons.dev/icons?i=react,nextjs,vue,angular,redux,tailwind,sass,bootstrap&theme=dark" height="36" /> |
+| **Backend** | <img src="https://skillicons.dev/icons?i=dotnet,spring,fastapi,nodejs&theme=dark" height="36" /> |
+| **Databases** | <img src="https://skillicons.dev/icons?i=postgres,mysql,mongodb&theme=dark" height="36" /> |
 
-###
-
-<div align="left">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/microsoftsqlserver/microsoftsqlserver-plain-wordmark.svg" height="40" alt="microsoftsqlserver logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original-wordmark.svg" height="40" alt="mysql logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original-wordmark.svg" height="40" alt="postgresql logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original-wordmark.svg" height="40" alt="mongodb logo"  />
-</div>
-
-###
-## More Infomation
-<div align="left">
-  <a href="https://www.facebook.com/profile.php?id=100027522219067" target="_blank">
-    <img src="https://img.shields.io/static/v1?message=Facebook&logo=facebook&label=&color=1877F2&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="facebook logo"  />
-  </a>
-</div>
-
-###
-## 📊 GitHub Stats:
-
+### 📊 GitHub stats
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=minhduoc-tran&hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=dracula&locale=en&hide_border=false" height="150" alt="stats graph"  />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=minhduoc-tran&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=5&theme=dracula&hide_border=false" height="150" alt="languages graph"  />
+  <img height="165" src="https://github-readme-stats.vercel.app/api?username=minhduoc-tran&show_icons=true&include_all_commits=true&theme=github_dark&hide_border=true&bg_color=0d1117" />
+  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs?username=minhduoc-tran&layout=compact&langs_count=6&theme=github_dark&hide_border=true&bg_color=0d1117" />
 </div>
 
-
-###
-
-<br clear="both">
-
-<img src="./github-user-contribution.svg"/>
-
-###
-
-<br clear="both">
-
-<div align="left">
-  <img height="200" src="https://i.imgflip.com/65efzo.gif"  />
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/minhduoc-tran/minhduoc-tran/output/snake-dark.svg" />
+    <img alt="contribution snake" src="https://raw.githubusercontent.com/minhduoc-tran/minhduoc-tran/output/snake.svg" />
+  </picture>
 </div>
 
-###
-
-
+![footer](https://capsule-render.vercel.app/api?type=waving&color=0:1e3a5f,50:0d2137,100:0d1117&height=100&section=footer)
