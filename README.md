@@ -1,6 +1,6 @@
 <div align="center">
 
-![header](https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:0d2137,100:1e3a5f&height=160&section=header&text=Tran%20Minh%20Duoc&fontSize=36&fontColor=e6edf3&fontAlignY=40&desc=Web%20Developer%20%C2%B7%20C%E1%BA%A7n%20Th%C6%A1%2C%20Viet%20Nam&descSize=15&descAlignY=62&animation=fadeIn)
+<img src="./assets/header.svg" width="100%" alt="Tran Minh Duoc · Web Developer" />
 
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=18&duration=3000&pause=800&color=58A6FF&center=true&vCenter=true&width=520&lines=Building+data-heavy+UIs+with+React+%26+Next.js;Open-source+table+%26+filter+components;Always+learning%2C+always+shipping)](https://github.com/minhduoc-tran)
 
@@ -57,4 +57,4 @@
   </picture>
 </div>
 
-![footer](https://capsule-render.vercel.app/api?type=waving&color=0:1e3a5f,50:0d2137,100:0d1117&height=100&section=footer)
+<img src="./assets/footer.svg" width="100%" />
