@@ -1,0 +1,164 @@
+<!doctype html>
+<!--
+  The profile banner: a misty Mekong river at dawn, drawn in SVG, with the
+  name and links on top. Render it with `python3 scripts/build_banner.py`.
+-->
+<html>
+<head>
+<meta charset="utf-8" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=JetBrains+Mono:wght@400;500&display=block" rel="stylesheet" />
+<style>
+  html, body { margin: 0; background: #000; }
+  #banner { position: relative; width: 1200px; height: 400px; overflow: hidden; }
+  #scene { position: absolute; inset: 0; }
+  .name { position: absolute; left: 86px; top: 122px; font: 80px/1 "Great Vibes", cursive; color: #f4f7f5; text-shadow: 0 2px 18px rgba(0,0,0,.45); white-space: nowrap; }
+  .role { position: absolute; left: 92px; top: 236px; font: 500 15px "JetBrains Mono", monospace; letter-spacing: .14em; color: rgba(225,236,231,.78); text-transform: uppercase; }
+  .divider { position: absolute; left: 660px; top: 96px; width: 2px; height: 210px; background: rgba(244,247,245,.85); transform: rotate(14deg); border-radius: 2px; }
+  .links { position: absolute; left: 726px; top: 128px; display: grid; gap: 22px; }
+  .link { display: flex; align-items: center; gap: 14px; font: 400 19px "JetBrains Mono", monospace; color: #f4f7f5; text-shadow: 0 1px 10px rgba(0,0,0,.5); }
+  .link svg { width: 24px; height: 24px; flex: none; }
+</style>
+</head>
+<body>
+<div id="banner">
+  <svg id="scene" viewBox="0 0 1200 400" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+      <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+        <stop offset="0" stop-color="#07130f" />
+        <stop offset=".42" stop-color="#18332d" />
+        <stop offset=".6" stop-color="#5b7b71" />
+        <stop offset=".64" stop-color="#7d998f" />
+      </linearGradient>
+      <linearGradient id="water" x1="0" y1="0" x2="0" y2="1">
+        <stop offset="0" stop-color="#5f7e74" />
+        <stop offset=".35" stop-color="#2c4a42" />
+        <stop offset="1" stop-color="#06100d" />
+      </linearGradient>
+      <radialGradient id="sun" cx="0.5" cy="0.5" r="0.5">
+        <stop offset="0" stop-color="#f3ead2" stop-opacity=".55" />
+        <stop offset="1" stop-color="#f3ead2" stop-opacity="0" />
+      </radialGradient>
+      <linearGradient id="shade" x1="0" x2="1">
+        <stop offset="0" stop-color="#000" stop-opacity=".55" />
+        <stop offset=".55" stop-color="#000" stop-opacity=".2" />
+        <stop offset="1" stop-color="#000" stop-opacity=".35" />
+      </linearGradient>
+      <filter id="haze"><feGaussianBlur stdDeviation="1.6" /></filter>
+      <filter id="fog" x="-20%" y="-200%" width="140%" height="500%"><feGaussianBlur stdDeviation="18" /></filter>
+      <filter id="grain">
+        <feTurbulence type="fractalNoise" baseFrequency=".9" numOctaves="2" stitchTiles="stitch" />
+        <feColorMatrix values="0 0 0 0 1  0 0 0 0 1  0 0 0 0 1  0 0 0 .55 0" />
+      </filter>
+    </defs>
+    <rect width="1200" height="260" fill="url(#sky)" />
+    <ellipse cx="930" cy="236" rx="240" ry="120" fill="url(#sun)" />
+    <g id="far" filter="url(#haze)"></g>
+    <rect y="252" width="1200" height="148" fill="url(#water)" />
+    <g id="reflection" opacity=".28" filter="url(#haze)"></g>
+    <g id="ripples"></g>
+    <g id="mid"></g>
+    <g id="boat"></g>
+    <g filter="url(#fog)" fill="#dfeae5">
+      <ellipse cx="300" cy="252" rx="420" ry="16" opacity=".22" />
+      <ellipse cx="900" cy="246" rx="380" ry="14" opacity=".2" />
+      <ellipse cx="620" cy="300" rx="520" ry="20" opacity=".08" />
+    </g>
+    <g id="front"></g>
+    <rect width="1200" height="400" fill="url(#shade)" />
+    <rect width="1200" height="400" filter="url(#grain)" opacity=".07" />
+  </svg>
+
+  <div class="name">Tran Minh Duoc</div>
+  <div class="role">Web developer · Cần Thơ, Việt Nam</div>
+  <div class="divider"></div>
+  <div class="links">
+    <div class="link">
+      <svg viewBox="0 0 24 24" fill="#f4f7f5"><path d="M12 .5C5.65.5.5 5.65.5 12c0 5.08 3.29 9.39 7.86 10.91.58.1.79-.25.79-.56v-2c-3.2.7-3.87-1.37-3.87-1.37-.52-1.33-1.28-1.69-1.28-1.69-1.04-.71.08-.7.08-.7 1.15.08 1.76 1.18 1.76 1.18 1.03 1.76 2.69 1.25 3.35.96.1-.75.4-1.25.73-1.54-2.55-.29-5.24-1.28-5.24-5.69 0-1.26.45-2.29 1.18-3.1-.12-.29-.51-1.46.11-3.05 0 0 .97-.31 3.16 1.18a10.98 10.98 0 0 1 5.76 0c2.19-1.49 3.16-1.18 3.16-1.18.62 1.59.23 2.76.11 3.05.74.81 1.18 1.84 1.18 3.1 0 4.42-2.69 5.39-5.26 5.68.41.36.78 1.06.78 2.14v3.17c0 .31.21.67.8.56A11.51 11.51 0 0 0 23.5 12C23.5 5.65 18.35.5 12 .5Z"/></svg>
+      github.com/minhduoc-tran
+    </div>
+    <div class="link">
+      <svg viewBox="0 0 24 24" fill="none" stroke="#f4f7f5" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M2 12h20"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+      duoctran-portfolio.vercel.app
+    </div>
+    <div class="link">
+      <svg viewBox="0 0 24 24" fill="none" stroke="#f4f7f5" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-10 6L2 7"/></svg>
+      tmduoc.169@gmail.com
+    </div>
+  </div>
+</div>
+
+<script>
+  // Seeded random, so every render draws the same scene.
+  let seed = 7
+  const rand = () => ((seed = (seed * 16807) % 2147483647) - 1) / 2147483646
+  const NS = "http://www.w3.org/2000/svg"
+  const add = (parent, tag, attrs) => {
+    const el = document.createElementNS(NS, tag)
+    for (const [k, v] of Object.entries(attrs)) el.setAttribute(k, v)
+    document.getElementById(parent).appendChild(el)
+    return el
+  }
+
+  // A coconut palm: a curved, tapering trunk and drooping fronds.
+  function palm(group, x, base, height, lean, fill, flip = 1) {
+    const top = { x: x + lean, y: base - height }
+    const w = Math.max(2, height / 34)
+    const cx = x + lean * 0.2
+    add(group, "path", {
+      d: `M${x - w},${base} Q${cx - w},${base - height / 2} ${top.x - w * 0.4},${top.y}
+          L${top.x + w * 0.4},${top.y} Q${cx + w},${base - height / 2} ${x + w},${base}Z`,
+      fill, transform: flip < 0 ? `translate(${2 * x},0) scale(-1,1)` : "",
+    })
+    const fronds = 8
+    for (let i = 0; i < fronds; i++) {
+      const angle = (-170 + (i * 160) / (fronds - 1) + (rand() - 0.5) * 14) * (Math.PI / 180)
+      const len = height * (0.34 + rand() * 0.12)
+      const tip = { x: top.x + Math.cos(angle) * len, y: top.y + Math.sin(angle) * len * 0.55 + len * 0.42 }
+      const ctrl = { x: top.x + Math.cos(angle) * len * 0.55, y: top.y + Math.sin(angle) * len * 0.6 - len * 0.12 }
+      const t = Math.max(1.8, height / 42)
+      add(group, "path", {
+        d: `M${top.x},${top.y} Q${ctrl.x},${ctrl.y - t} ${tip.x},${tip.y} Q${ctrl.x},${ctrl.y + t * 1.6} ${top.x},${top.y + t}Z`,
+        fill,
+      })
+    }
+  }
+
+  // A low bank of trees along the river, with palms standing out of it.
+  function bank(group, y, color, from, to, bump, palms, palmHeight) {
+    let d = `M${from},${y}`
+    for (let x = from; x <= to; x += 18) d += ` L${x},${y - bump * (0.4 + rand() * 0.6)}`
+    d += ` L${to},${y + 8} L${from},${y + 8}Z`
+    add(group, "path", { d, fill: color })
+    for (let i = 0; i < palms; i++) {
+      const x = from + rand() * (to - from)
+      palm(group, x, y - bump * 0.3, palmHeight * (0.7 + rand() * 0.5), (rand() - 0.5) * palmHeight * 0.4, color)
+    }
+  }
+
+  bank("far", 254, "#4d6d64", 0, 1200, 9, 26, 34)
+  bank("reflection", 254, "#4d6d64", 0, 1200, 9, 0, 0)
+  document.getElementById("reflection").setAttribute("transform", "translate(0,512) scale(1,-1)")
+  bank("mid", 262, "#203a33", 760, 1200, 16, 7, 70)
+
+  for (let i = 0; i < 26; i++) {
+    const y = 268 + rand() * 120, x = rand() * 1200, w = 40 + rand() * 160
+    add("ripples", "rect", { x, y, width: w, height: 1.2, fill: "#c9dad3", opacity: (0.05 + rand() * 0.1).toFixed(2) })
+  }
+
+  // A sampan with someone rowing, small in the middle of the river.
+  document.getElementById("boat").setAttribute("transform", "translate(-170,6)")
+  add("boat", "path", { d: "M560,296 Q600,306 650,296 L644,302 Q600,309 566,302Z", fill: "#0d1a16" })
+  add("boat", "path", { d: "M604,296 l2,-17 l5,0 l2,17Z", fill: "#0d1a16" })
+  add("boat", "path", { d: "M600,280 l14,-6 l14,6Z", fill: "#0d1a16" })
+  add("boat", "path", { d: "M616,286 L640,312", stroke: "#0d1a16", "stroke-width": 1.6 })
+  add("boat", "path", { d: "M566,304 Q600,312 644,304", stroke: "#0d1a16", "stroke-width": 2, opacity: .25, fill: "none" })
+
+  // Big dark palms framing the left and right edges.
+  palm("front", 30, 410, 330, 120, "#050c0a")
+  palm("front", -20, 420, 250, 160, "#050c0a")
+  palm("front", 1180, 420, 300, -110, "#050c0a")
+  add("front", "path", { d: "M0,372 Q300,352 620,368 T1200,362 L1200,400 L0,400Z", fill: "#050c0a", opacity: .85 })
+</script>
+</body>
+</html>
