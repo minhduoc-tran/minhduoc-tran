@@ -1,4 +1,7 @@
-# Tran Minh Duoc
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/header-dark.svg" />
+  <img src="./assets/header-light.svg" width="100%" alt="Tran Minh Duoc, web developer building data-heavy UIs with React and Next.js" />
+</picture>
 
 Web developer in Cần Thơ, Việt Nam. I build data-heavy interfaces with React, Next.js and TypeScript, and the open-source pieces behind them.
 
