@@ -26,17 +26,32 @@
 
 <h2 align="center">Projects</h2>
 
-<p align="center">
-  <a href="https://github.com/minhduoc-tran/tablecn"><b>tablecn</b></a>: data table blocks for shadcn/ui, with filter, search, sort and page all in the URL.
-  <br />
-  <a href="https://table-cn.vercel.app">Demo</a> · <a href="https://table-cn.vercel.app/docs">Docs</a> · <a href="https://www.npmjs.com/search?q=%40querycn">npm</a>
-</p>
-
-<p align="center">
-  <a href="https://github.com/minhduoc-tran/filtercn"><b>filtercn</b></a>: a conditional filter component that turns complex queries into URL state or API parameters.
-  <br />
-  <a href="https://filtercn.vercel.app">Demo</a>
-</p>
+<div align="center">
+  <table>
+    <thead>
+      <tr>
+        <th>Project</th>
+        <th>What it is</th>
+        <th>Built with</th>
+        <th>Links</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a href="https://github.com/minhduoc-tran/tablecn"><b>tablecn</b></a></td>
+        <td>Data table blocks for shadcn/ui, with filter, search, sort and page all in the URL</td>
+        <td>React · TanStack Table · shadcn/ui</td>
+        <td nowrap><a href="https://table-cn.vercel.app">Demo</a>&nbsp;·&nbsp;<a href="https://table-cn.vercel.app/docs">Docs</a>&nbsp;·&nbsp;<a href="https://www.npmjs.com/search?q=%40querycn">npm</a></td>
+      </tr>
+      <tr>
+        <td><a href="https://github.com/minhduoc-tran/filtercn"><b>filtercn</b></a></td>
+        <td>A conditional filter component that turns complex queries into URL state or API parameters</td>
+        <td>React · shadcn/ui</td>
+        <td><a href="https://filtercn.vercel.app">Demo</a></td>
+      </tr>
+    </tbody>
+  </table>
+</div>
 
 <h2 align="center">Statistics</h2>
 
