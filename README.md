@@ -2,7 +2,7 @@
 
 Web developer in Cần Thơ, Việt Nam. I build data-heavy interfaces with React, Next.js and TypeScript, and the open-source pieces behind them.
 
-Working at **POD Software**. Building **[tablecn](https://github.com/minhduoc-tran/tablecn)** on the side.
+Building **[tablecn](https://github.com/minhduoc-tran/tablecn)** on the side.
 
 [table-cn.vercel.app](https://table-cn.vercel.app) &nbsp;·&nbsp; [npm](https://www.npmjs.com/search?q=%40querycn) &nbsp;·&nbsp; [Facebook](https://www.facebook.com/profile.php?id=100027522219067)
 
