@@ -50,7 +50,7 @@
 <g class="in" style="animation-delay:.3s">
   <circle class="pulse" cx="52" cy="214.0" r="4" fill="#4ade80"/>
   <circle cx="52" cy="214.0" r="4" fill="#4ade80"/>
-  <text x="66" y="219.0" class="sans" font-size="14" fill="#a1a1aa">Building tablecn  ·  Cần Thơ, Việt Nam</text>
+  <text x="66" y="219.0" class="sans" font-size="14" fill="#a1a1aa">Web developer  ·  Cần Thơ, Việt Nam</text>
 </g>
 
   <g mask="url(#table-fade)">

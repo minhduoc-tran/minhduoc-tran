@@ -14,7 +14,7 @@ MONO = "ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace"
 
 NAME = "Tran Minh Duoc"
 TYPED = "building data-heavy UIs with React & Next.js"
-STATUS = "Building tablecn  ·  Cần Thơ, Việt Nam"
+STATUS = "Web developer  ·  Cần Thơ, Việt Nam"
 
 THEMES = {
     "dark": dict(fg="#fafafa", muted="#a1a1aa", subtle="#52525b", accent="#60a5fa", green="#4ade80",

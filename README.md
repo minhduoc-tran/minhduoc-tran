@@ -3,40 +3,43 @@
   <img src="./assets/header-light.svg" width="100%" alt="Tran Minh Duoc, web developer building data-heavy UIs with React and Next.js" />
 </picture>
 
-Web developer in Cần Thơ, Việt Nam. I build data-heavy interfaces with React, Next.js and TypeScript, and the open-source pieces behind them.
+## Hi, I'm Duoc
 
-Building **[tablecn](https://github.com/minhduoc-tran/tablecn)** on the side.
+I'm a web developer from Cần Thơ, Việt Nam. I like building the data-heavy parts of an app: tables, filters, forms and dashboards that stay fast and clear with a lot of rows behind them.
 
-[table-cn.vercel.app](https://table-cn.vercel.app) &nbsp;·&nbsp; [npm](https://www.npmjs.com/search?q=%40querycn) &nbsp;·&nbsp; [Facebook](https://www.facebook.com/profile.php?id=100027522219067)
+Most days I work in React, Next.js and TypeScript, and I'm at home on the backend too, with .NET, Spring Boot and FastAPI. In my free time I build open-source tools for other developers.
 
-## tablecn
+<a href="mailto:tmduoc.169@gmail.com"><img src="https://img.shields.io/badge/Email-tmduoc.169%40gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white" alt="Email" /></a>&nbsp;<a href="https://www.facebook.com/profile.php?id=100027522219067"><img src="https://img.shields.io/badge/Facebook-Tran%20Minh%20Duoc-0866FF?style=flat-square&logo=facebook&logoColor=white" alt="Facebook" /></a>&nbsp;<a href="https://duoctran-portfolio.vercel.app"><img src="https://img.shields.io/badge/Portfolio-duoctran--portfolio-18181B?style=flat-square&logo=vercel&logoColor=white" alt="Portfolio" /></a>
 
-**Data table blocks for shadcn/ui. Filter, search, sort and page, all in the URL.**
+## Tech stack
 
-Install with the shadcn CLI, built on TanStack Table, listed in the [shadcn registry directory](https://ui.shadcn.com/docs/directory).
+**Frontend**
 
-- A filter builder with 8 field types, 15 operators and AND / OR, written to the URL
-- Inline editing and bulk edit, saved to your backend
-- A column layout users keep: move, pin, resize, hide and color columns
-- Cards on small screens, virtualization for thousands of rows
-- The same blocks in Radix UI, Base UI and React Aria, in English and Vietnamese
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=react,nextjs,ts,js,tailwind,redux,vue,angular&theme=dark" />
+  <img src="https://skillicons.dev/icons?i=react,nextjs,ts,js,tailwind,redux,vue,angular&theme=light" alt="React, Next.js, TypeScript, JavaScript, Tailwind CSS, Redux, Vue, Angular" />
+</picture>
 
-[Live demo](https://table-cn.vercel.app) &nbsp;·&nbsp; [Docs](https://table-cn.vercel.app/docs) &nbsp;·&nbsp; [Source](https://github.com/minhduoc-tran/tablecn)
+**Backend**
 
-| Package | Version | What it does |
-| --- | --- | --- |
-| [`@querycn/table-react`](https://www.npmjs.com/package/@querycn/table-react) | [![npm](https://shieldcn.dev/npm/v/@querycn/table-react.svg?variant=secondary&size=xs&theme=zinc)](https://www.npmjs.com/package/@querycn/table-react) | Headless table, state in the URL |
-| [`@querycn/filter-core`](https://www.npmjs.com/package/@querycn/filter-core) | [![npm](https://shieldcn.dev/npm/v/@querycn/filter-core.svg?variant=secondary&size=xs&theme=zinc)](https://www.npmjs.com/package/@querycn/filter-core) | Rules, URL codec, backend serializers |
-| [`@querycn/filter-react`](https://www.npmjs.com/package/@querycn/filter-react) | [![npm](https://shieldcn.dev/npm/v/@querycn/filter-react.svg?variant=secondary&size=xs&theme=zinc)](https://www.npmjs.com/package/@querycn/filter-react) | React provider, hooks, URL adapters |
-| [`@querycn/filter-next`](https://www.npmjs.com/package/@querycn/filter-next) | [![npm](https://shieldcn.dev/npm/v/@querycn/filter-next.svg?variant=secondary&size=xs&theme=zinc)](https://www.npmjs.com/package/@querycn/filter-next) | Next.js adapter, server-side parser |
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=dotnet,cs,spring,java,fastapi,py,nodejs&theme=dark" />
+  <img src="https://skillicons.dev/icons?i=dotnet,cs,spring,java,fastapi,py,nodejs&theme=light" alt=".NET, C#, Spring Boot, Java, FastAPI, Python, Node.js" />
+</picture>
 
-## Also
+**Data and tools**
 
-**[filtercn](https://github.com/minhduoc-tran/filtercn)**: the conditional filter component that came before tablecn. Users build complex queries, and it serializes them into the URL or API parameters.
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=postgres,mysql,mongodb,docker,git,vercel&theme=dark" />
+  <img src="https://skillicons.dev/icons?i=postgres,mysql,mongodb,docker,git,vercel&theme=light" alt="PostgreSQL, MySQL, MongoDB, Docker, Git, Vercel" />
+</picture>
 
-## Toolbox
+Also TanStack (Table, Query) and SQL Server.
 
-- **Frontend**: React · Next.js · Tailwind CSS · TanStack · Vue · Angular · Redux
-- **Backend**: .NET · Spring Boot · FastAPI · Node.js
-- **Data**: PostgreSQL · SQL Server · MySQL · MongoDB
-- **Languages**: TypeScript · JavaScript · C# · Java · Python
+## Projects
+
+**[tablecn](https://github.com/minhduoc-tran/tablecn)**: data table blocks for shadcn/ui, with filter, search, sort and page all in the URL. Published to npm as [`@querycn`](https://www.npmjs.com/search?q=%40querycn) and listed in the shadcn registry directory.
+[Demo](https://table-cn.vercel.app) · [Docs](https://table-cn.vercel.app/docs)
+
+**[filtercn](https://github.com/minhduoc-tran/filtercn)**: a conditional filter component for data tables. Users build complex queries, and it turns them into URL state or API parameters.
+[Demo](https://filtercn.vercel.app)
