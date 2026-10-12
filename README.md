@@ -12,7 +12,7 @@
 <h1 align="center">Hi there 👋, I'm Duoc</h1>
 
 <p align="center">
-  A web developer from Cần Thơ, Việt Nam. I like building the data-heavy parts of an app: tables, filters, forms and dashboards that stay fast and clear with a lot of rows behind them. Most days I work in React, Next.js and TypeScript, and I'm at home on the backend too, with .NET, Spring Boot and FastAPI. In my free time I build open-source tools for other developers.
+  A web developer from Cần Thơ, Việt Nam. I like building the data-heavy parts of an app: tables, filters, forms and dashboards that stay fast and clear with a lot of rows behind them. Most days I work in React, Next.js and TypeScript, and I'm at home on the backend too, with .NET, Spring Boot and FastAPI. I work hand in hand with coding agents like Claude Code and Codex to plan, build and review faster. In my free time I build open-source tools for other developers.
 </p>
 
 <h2 align="center">Tech Stack</h2>
@@ -22,6 +22,13 @@
     <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=react,nextjs,ts,js,tailwind,redux,vue,angular,dotnet,cs,spring,java,fastapi,py,nodejs,postgres,mysql,mongodb,docker,git&perline=10&theme=dark" />
     <img src="https://skillicons.dev/icons?i=react,nextjs,ts,js,tailwind,redux,vue,angular,dotnet,cs,spring,java,fastapi,py,nodejs,postgres,mysql,mongodb,docker,git&perline=10&theme=light" alt="React, Next.js, TypeScript, JavaScript, Tailwind CSS, Redux, Vue, Angular, .NET, C#, Spring Boot, Java, FastAPI, Python, Node.js, PostgreSQL, MySQL, MongoDB, Docker, Git" />
   </picture>
+</p>
+
+<p align="center"><b>AI coding agents</b></p>
+
+<p align="center">
+  <a href="https://www.anthropic.com/claude-code"><img src="https://img.shields.io/badge/Claude%20Code-D97757?style=for-the-badge&logo=claude&logoColor=white" alt="Claude Code" /></a>
+  <a href="https://openai.com/codex"><img src="https://img.shields.io/badge/Codex-10A37F?style=for-the-badge&logo=data:image/svg%2bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSJ3aGl0ZSIgc3Ryb2tlLXdpZHRoPSIyLjQiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCI+PHBhdGggZD0ibTQgMTcgNi02LTYtNiIvPjxwYXRoIGQ9Ik0xMiAxOWg4Ii8+PC9zdmc+" alt="Codex" /></a>
 </p>
 
 <h2 align="center">Projects</h2>
