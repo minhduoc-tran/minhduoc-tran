@@ -1,12 +1,12 @@
-<a href="https://duoctran-portfolio.vercel.app">
-  <img src="./assets/banner.jpg" width="100%" alt="Tran Minh Duoc, web developer from Cần Thơ, Việt Nam. github.com/minhduoc-tran, duoctran-portfolio.vercel.app, tmduoc.169@gmail.com" />
+<a href="https://duotm.vercel.app">
+  <img src="./assets/banner.jpg" width="100%" alt="Tran Minh Duoc, web developer from Cần Thơ, Việt Nam. github.com/minhduoc-tran, duotm.vercel.app, tmduoc.169@gmail.com" />
 </a>
 
 <p align="center">
   <a href="https://github.com/minhduoc-tran"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
   <a href="https://www.facebook.com/profile.php?id=100027522219067"><img src="https://img.shields.io/badge/Facebook-0866FF?style=for-the-badge&logo=facebook&logoColor=white" alt="Facebook" /></a>
   <a href="mailto:tmduoc.169@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
-  <a href="https://duoctran-portfolio.vercel.app"><img src="https://img.shields.io/badge/Portfolio-18181B?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio" /></a>
+  <a href="https://duotm.vercel.app"><img src="https://img.shields.io/badge/Portfolio-18181B?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio" /></a>
 </p>
 
 <h1 align="center">Hi there 👋, I'm Duoc</h1>
